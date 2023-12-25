@@ -45609,11 +45609,11 @@ while(true)switch(s){case 0:i=new A.eI(Date.now(),!1)
 A.jN().$1("articleTitle == "+b)
 A.jN().$1("graderStudent == "+c)
 A.jN().$1("articleContent == "+d)
-p=A.ip("https://ea-article-api.agtoptv.com/article")
+p=A.ip("https://ea-article-api.agtoptv.com/writingEnglish")
 o=t.N
 n=A.aD(["accept","application/json","Content-Type","application/json; charset=UTF-8"],o,o)
 s=2
-return A.Y(A.aOr(p,B.br.FG(A.aD(["articleBefore",d,"direc",e],o,o),null),n),$async$xO)
+return A.Y(A.aOr(p,B.br.FG(A.aD(["username","123456","message",d,"grade",c],o,o),null),n),$async$xO)
 case 2:m=g
 if(m.b===200){p=m.e
 o=A.az8(A.axZ(p).c.a.h(0,"charset"))
